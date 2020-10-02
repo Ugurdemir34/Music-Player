@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favoriler"
+        android:icon="@android:drawable/star_big_on"
+        android:title="Favori Şarkılar"
+        app:showAsAction="always"></item>
+    <item
+
+        android:id="@+id/vertical"
+        android:title="Dikey Görünüm"
+        android:icon="@drawable/vert"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/gridView"
+        android:title="Izgara Görünüm"
+        android:icon="@drawable/grid"
+        app:showAsAction="never">
+    </item>
+</menu>

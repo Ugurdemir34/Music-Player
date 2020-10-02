@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#161d46</color>
+
+    <color name="colorPrimaryDark">#242d72</color>
+    <color name="c">#4dc247</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="itemPressed">#161d46</color>
+    <color name="notPressed">#FFFFFF</color>
+
+    <drawable name="highlight">#FF0000</drawable>
+
+    <drawable name="low">#000</drawable>
+</resources>

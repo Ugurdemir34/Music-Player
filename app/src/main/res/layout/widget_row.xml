@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/widget_margin">
+
+    <LinearLayout
+        android:id="@+id/widgetlinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="3dp"
+            android:ellipsize="marquee"
+
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="6dip"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@android:id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="3dp"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="6dip"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
